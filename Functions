@@ -1,0 +1,11 @@
+//FUNCTIONS
+
+fun main() {
+    println(operation(4, 5))
+    greetings(name="Vriddhi", greet="Good Morning")
+}
+fun operation(a: Int,b: Int): Int = a+b   
+
+fun greetings(greet: String="Good Evening", name: String){      //here by default the value of greet is "Good Evening" if there's no value passed in greet from the main function//
+    prinln("Hello $name, $greet")
+}
