@@ -1,0 +1,12 @@
+//HIGH ORDER FUNCTIONS
+
+fun main() {
+    val output=operation(4, 5,{a, b->
+    println("Adding these two numbers we get: ")
+    a+b
+    })
+    println(output)
+}
+fun operation(a: Int,b: Int,operate(Int, Int)-> Int): Int{
+   return operate(a,b)
+}
