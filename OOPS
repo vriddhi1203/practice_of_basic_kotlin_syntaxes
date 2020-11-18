@@ -1,0 +1,11 @@
+///OOPS in Kotlin
+
+fun main() { 
+   val p1=Person("Vriddhi")               //making of an object
+}
+class Person(val name: String){           //this line initially was made class when with no parenthesis now the same line can als be made contructor 
+      val name1: String
+      init{
+        name1=name
+      }
+}
