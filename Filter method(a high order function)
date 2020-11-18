@@ -1,4 +1,5 @@
-//Filter takes as input such a function, which takes int and returns boolean 
+//FILTER takes as input such a function, which takes int and returns boolean 
+//FILTER ia basically used to filter things out
 
 fun main() {
     val list=listOf<Int>(1, 2, 5, 8, 7)
