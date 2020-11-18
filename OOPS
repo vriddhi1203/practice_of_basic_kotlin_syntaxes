@@ -16,3 +16,5 @@ fun main() {
     println(p1.name)
 }
 class Person(val name: String)
+
+//OUTPUT=Vriddhi
