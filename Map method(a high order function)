@@ -10,3 +10,6 @@ fun main() {
        println("$it")
     })
 }
+
+//OUTPUT=4
+         64
