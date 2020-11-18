@@ -1,0 +1,5 @@
+//Variables in kotlin are by default NOT NULL but if we want to put NULL in a variable then syntax is 
+
+fun main() {
+   val name: String?=null
+}
