@@ -9,3 +9,10 @@ class Person(val name: String){           //this line initially was made class w
         name1=name
       }
 }
+//////OR//////
+
+fun main() {
+    val p1=Person("Vriddhi")
+    println(p1.name)
+}
+class Person(val name: String)
