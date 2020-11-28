@@ -2,6 +2,7 @@
 
 fun main() { 
    val p1=Person("Vriddhi")               //making of an object
+   println(p1.name1)
 }
 class Person(val name: String){           //this line initially was made class when with no parenthesis now the same line can als be made contructor 
       val name1: String
